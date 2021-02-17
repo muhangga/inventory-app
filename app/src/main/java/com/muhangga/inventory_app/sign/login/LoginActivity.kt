@@ -10,7 +10,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.muhangga.inventory_app.R
-import com.muhangga.inventory_app.kategori.KategoriBarangActivity
+import com.muhangga.inventory_app.modules.kategori.KategoriBarangActivity
 import com.muhangga.inventory_app.sign.signup.SignUpActivity
 import kotlinx.android.synthetic.main.activity_login.*
 

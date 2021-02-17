@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".modules.makanan.MakananActivity"></activity>
-        <activity android:name=".kategori.KategoriBarangActivity" />
+        <activity android:name="com.muhangga.inventory_app.modules.kategori.KategoriBarangActivity" />
         <activity android:name=".sign.signup.SignUpActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
