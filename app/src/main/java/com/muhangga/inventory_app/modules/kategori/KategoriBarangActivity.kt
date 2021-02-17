@@ -12,6 +12,7 @@ import android.os.Bundle
 import com.muhangga.inventory_app.R
 import com.muhangga.inventory_app.modules.makanan.MakananActivity
 import com.muhangga.inventory_app.modules.minuman.MinumanActivity
+import com.muhangga.inventory_app.modules.rokok.RokokActivity
 import kotlinx.android.synthetic.main.activity_kategori_barang.*
 
 class KategoriBarangActivity : AppCompatActivity() {
@@ -26,6 +27,10 @@ class KategoriBarangActivity : AppCompatActivity() {
 
         btn_minuman.setOnClickListener {
             startActivity(Intent(this@KategoriBarangActivity, MinumanActivity::class.java))
+        }
+
+        btn_rokok.setOnClickListener {
+            startActivity(Intent(this@KategoriBarangActivity, RokokActivity::class.java))
         }
     }
 }

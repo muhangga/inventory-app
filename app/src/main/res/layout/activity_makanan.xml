@@ -12,6 +12,15 @@
     android:layout_height="match_parent"
     tools:context=".modules.makanan.MakananActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_top3"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView7"
         style="@style/TextView.SemiBold"
@@ -20,6 +29,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:text="List Makanan"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,7 +50,8 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:background="@drawable/shape_edit_text_border"
+        android:queryHint="Pencarian ...."
+        android:background="@drawable/shape_edit_text_white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
