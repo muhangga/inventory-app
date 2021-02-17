@@ -1,0 +1,20 @@
+<!--
+  ~
+  ~ Written By Muhamad Angga
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="29"
+    android:viewportHeight="23">
+  <path
+      android:pathData="M5,0L24,0A5,5 0,0 1,29 5L29,18A5,5 0,0 1,24 23L5,23A5,5 0,0 1,0 18L0,5A5,5 0,0 1,5 0z"
+      android:fillColor="#FFBE17"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M15,5V18M7,11.5H23.5"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"/>
+</vector>

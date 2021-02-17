@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--    Text View   -->
+
+    <style name="TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:textColor">@color/colorBluePrimary</item>
+    </style>
+
+    <style name="TextView.SemiBold" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textColor">@color/colorBluePrimary</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!--   Button   -->
+
+    <style name="ButtonOrange" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/shape_button_orange</item>
+        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:textColor">@color/colorBluePrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+
+    <style name="ButtonBlue" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/shape_button_blue</item>
+        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+
+    <style name="ButtonGrey" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/shape_button_grey</item>
+        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:textColor">@color/colorBluePrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+
+
+    <!--   Edit Text   -->
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/shape_edit_text_border</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:color">@color/colorBluePrimary</item>
+        <item name="android:ems">10</item>
+    </style>
+
+
+</resources>
