@@ -4,12 +4,6 @@
  *
  */
 
-/*
- *
- * Written By Muhamad Angga
- *
- */
-
 package com.muhangga.inventory_app.sign.login
 
 import android.content.Intent
