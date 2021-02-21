@@ -57,7 +57,7 @@
         <item name="android:layout_marginStart">24dp</item>
         <item name="android:layout_marginEnd">24dp</item>
         <item name="android:fontFamily">@font/raleway</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:paddingStart">20dp</item>
         <item name="android:color">@color/colorBluePrimary</item>
         <item name="android:ems">10</item>

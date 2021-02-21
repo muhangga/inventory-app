@@ -112,7 +112,7 @@
         app:layout_constraintTop_toBottomOf="@+id/et_password" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tv_punya_akun"
         style="@style/TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

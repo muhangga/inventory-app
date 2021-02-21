@@ -11,7 +11,6 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class MakananModel (
-    var id : Int? = 0,
     var nama : String? = "",
     var harga : String? = "",
     var pcs : Int = 0
